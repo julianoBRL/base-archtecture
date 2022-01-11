@@ -10,6 +10,8 @@
     	<module>gateway-service</module>
     	<module>admin-service</module>
     	<module>config-service</module>
+    	
+    	<module>demo-service</module>
   </modules>
 
 </project>
