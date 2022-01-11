@@ -11,9 +11,9 @@
 	</parent>
 	
 	<groupId>io.github.julianobrl</groupId>
-	<artifactId>gateway-service</artifactId>
+	<artifactId>gateway-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>gateway-service</name>
+	<name>gateway-server</name>
 	<description>Demo project for Spring Boot</description>
 	
 	<properties>

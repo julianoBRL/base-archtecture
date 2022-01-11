@@ -11,9 +11,9 @@
 	</parent>
 	
 	<groupId>io.github.julianobrl</groupId>
-	<artifactId>discovery-service</artifactId>
+	<artifactId>discovery-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>discovery-service</name>
+	<name>discovery-server</name>
 	<description>Demo project for Spring Boot</description>
 	
 	<properties>
