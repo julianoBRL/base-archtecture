@@ -6,10 +6,10 @@
   <packaging>pom</packaging>
 
   <modules>
-		<module>discovery-service</module>
-    	<module>gateway-service</module>
-    	<module>admin-service</module>
-    	<module>config-service</module>
+		<module>discovery-server</module>
+    	<module>gateway-server</module>
+    	<module>admin-server</module>
+    	<module>config-server</module>
     	
     	<module>demo-service</module>
   </modules>
