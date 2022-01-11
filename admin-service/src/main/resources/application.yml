@@ -1,2 +1,9 @@
 server:
   port: 8090
+  
+spring:
+  boot:
+    admin:
+      ui:
+        title: Dashboard
+        brand: <img src="assets/img/icon-spring-boot-admin.svg"><span>Dashboard</span>
