@@ -12,10 +12,6 @@
 	<artifactId>admin-server</artifactId>
 	<name>admin-server</name>
 	<description>Demo project for Spring Boot</description>
-	
-	<properties>
-		<spring-boot-admin.version>2.5.4</spring-boot-admin.version>
-	</properties>
 
 	<dependencies>
 		<dependency>

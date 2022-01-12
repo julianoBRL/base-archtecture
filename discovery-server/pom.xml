@@ -12,11 +12,6 @@
 	<artifactId>discovery-server</artifactId>
 	<name>discovery-server</name>
 	<description>Demo project for Spring Boot</description>
-	
-	<properties>
-		<spring-cloud.version>2020.0.4</spring-cloud.version>
-		<spring-boot-admin.version>2.5.4</spring-boot-admin.version>
-	</properties>
 
 	<dependencies>
 		<dependency>
