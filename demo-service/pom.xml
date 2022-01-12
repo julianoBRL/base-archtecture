@@ -30,7 +30,7 @@
 	
 		<dependency>
 			<groupId>io.github.julianobrl</groupId>
-			<artifactId>cardinal-core</artifactId>
+			<artifactId>cardinal-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	
