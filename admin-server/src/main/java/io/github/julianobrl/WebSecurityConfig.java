@@ -33,7 +33,11 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers(this.adminServer.getContextPath() + "/assets/**").permitAll()
                 .antMatchers(this.adminServer.getContextPath() + "/login").permitAll()
 
-                .antMatchers(this.adminServer.getContextPath() + "/instances").hasAnyRole("APP")
+                .antMatchers(this.adminServer.getContextPath() + "/instances").hasAnyRole("APP","ADMIN")
+                .antMatchers(this.adminServer.getContextPath() + "/actuator").hasAnyRole("APP","ADMIN")
+                
+                .antMatchers(this.adminServer.getContextPath() + "/actuator/**").hasAnyRole("APP")
+                
                 .antMatchers(this.adminServer.getContextPath() + "/**").hasAnyRole("ADMIN")
                 .anyRequest().authenticated()
                 .and()
