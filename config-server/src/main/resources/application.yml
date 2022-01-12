@@ -9,6 +9,8 @@ spring:
     admin:
       client:
         url: ${ADMIN_SERVER:http://localhost:8090/}
+        password: app
+        username: app
   cloud:
     config:
       allowOverride: true

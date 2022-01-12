@@ -6,6 +6,8 @@ spring:
     admin:
       client:
         url: ${ADMIN_SERVER:http://localhost:8090/}
+        password: app
+        username: app
   jackson:
    serialization:
      FAIL_ON_EMPTY_BEANS: false
