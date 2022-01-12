@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import io.github.julianobrl.cardinalcore.SimpleData;
 import io.swagger.v3.oas.annotations.parameters.RequestBody;
 
 @RestController
@@ -28,7 +29,9 @@ public class SimpleController {
 	ObjectMapper mapper = new ObjectMapper();
 
 	@GetMapping
+	@SuppressWarnings("unused")
 	public String get(@RequestParam(required = false) Object params) throws JsonProcessingException {
+		SimpleData data = new SimpleData();
 		System.out.println("GET - RequestParam = "+mapper.writeValueAsString(params));
 		return "GET on server<"+serverName+"> port<"+serverPort+">";
 	}
